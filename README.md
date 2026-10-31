@@ -6,7 +6,7 @@ LLM kernels in NVIDIA's tile programming model, written with cuTile Python and c
 
 | Path | Holds |
 | --- | --- |
-| `docker/` | The pinned development image |
+| `docker/` | How to build and run the development image |
 | `scripts/` | Setup and run helpers |
 | `kernels/` | Kernels and their tests |
 | `benchmarks/` | Benchmark harnesses |
