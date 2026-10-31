@@ -1,0 +1,39 @@
+# Upstream checkouts (TileGym, mistral.rs)
+/upstream/
+
+# Secrets
+.env
+.env.*
+*.pem
+
+# Model weights
+models/
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+
+# Profiler captures (Nsight Systems, Nsight Compute)
+*.nsys-rep
+*.qdrep
+*.qdstrm
+*.ncu-rep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+
+# Rust
+target/
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+.claude/settings.local.json
